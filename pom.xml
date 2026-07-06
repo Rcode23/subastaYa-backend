@@ -58,7 +58,14 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Postgresql -->
+        <!-- SQL Server para desarrollo local -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- PostgreSQL para producción -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
